@@ -1,0 +1,14 @@
+Register A: 60589763
+Register B: 0
+Register C: 0
+
+Program: 2,4,1,5,7,5,1,6,4,1,5,5,0,3,3,0
+
+6) 2,4 - regB = regA % 2^3 - pega nos ultimos 3 bits de A -> regA = regB+n*8
+5) 1,5 - regB = regB XOR 101 (5) -> regB = regB xor 5
+
+4) 7,5 - regC = regA // 2^regB (= regA // 2^regA) -> regA = regC * 2^regB
+
+3) 1,6 - regB = regC XOR 6 (110) - regC = regB XOR 6
+2) 4,1 - regB = regC XOR regB - regC = regB XOR regB => regC = 0
+1) 5,5 - out regB % 2^3 - outputs last three bits of regB (000)
