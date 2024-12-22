@@ -56,7 +56,7 @@ def main():
     res = len(quad1) * len(quad2) * len(quad3) * len(quad4)
     print("Part 1:", res)
 
-    for seconds in range(7600, 7700):
+    for seconds in range(10000):
         posx = []
         posy = []
         
