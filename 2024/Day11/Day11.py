@@ -1,7 +1,7 @@
 import functools
 
 # parse input
-with open("2024/Day 11/input.txt", 'r') as file:
+with open("2024/Day11/input.txt", 'r') as file:
     matrix = [list(line.strip().split()) for line in file]
 
 # using built-in memo
