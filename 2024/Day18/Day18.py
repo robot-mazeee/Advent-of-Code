@@ -93,6 +93,7 @@ def main():
 
     print("Part 1:", len(path)-1)
 
+    # if a node is in path, change bfs choice only at that node
     for i in range(num_bytes+1, len(lines)):
         # print(i)
         line = lines[i]
