@@ -80,9 +80,9 @@ def get_heights(keys, locks):
 def overlap(key_heights, lock_heights, size):
     length = len(key_heights)
     for i in range(length):
-        key = key_heights[i]
-        lock = lock_heights[i]
-        if key+lock > size-2:
+        key_height = key_heights[i]
+        lock_height = lock_heights[i]
+        if key_height+lock_height > size-2:
             return True
     return False
 
@@ -91,9 +91,9 @@ def get_key_lock_pairs(keys, locks):
     keys_heights, locks_heights = get_heights(keys, locks)
     key_lock_pairs = 0
 
-    for key in keys_heights:
-        for lock in locks_heights:
-            if not overlap(key, lock, size):
+    for key_height in keys_heights:
+        for lock_height in locks_heights:
+            if not overlap(key_height, lock_height, size):
                 key_lock_pairs += 1
 
     return key_lock_pairs
