@@ -1,6 +1,5 @@
 Here are my code solutions for🎄[Advent of Code 2024](https://adventofcode.com/)🎄. This is a programming competition where two problems are released every day, starting on December 1st and ending on December 25th.
 
-<div align="center">
 | Problems  |
 | ------------- |
 | Day 1:  [Historian Hysteria](https://adventofcode.com/2024/day/1)  |
@@ -28,4 +27,3 @@ Here are my code solutions for🎄[Advent of Code 2024](https://adventofcode.com
 |Day 23: [LAN Party](https://adventofcode.com/2024/day/23)|
 |Day 24: [Crossed Wires](https://adventofcode.com/2024/day/24)|
 |Day 25: [Code Chronicle](https://adventofcode.com/2024/day/25)|
-</div>
