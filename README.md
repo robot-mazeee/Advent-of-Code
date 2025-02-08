@@ -1,4 +1,4 @@
-Here are my code solutions for🎄[Advent of Code 2024](https://adventofcode.com/)🎄. This is a programming competition where two problems are released every day, starting on December 1st and ending on December 25th.
+Here are my code solutions for🎄[Advent of Code 2024](https://adventofcode.com/)🎄. This is a programming competition where two problems are released every day, starting on December 1st and ending on December 25th. Great for brushing up on algorithms and data structures as well as strengthening my problem solving skills.
 
 <div align="center">
 
